@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="fr.fablab.TCPA"
+      version="1.1.0">
+	
+    <name>TCPMainA</name>
+<engines>
+    <engine name="cordova" version=">=3.3.0" />
+</engines>
+    <description>Cordova TCP plugin</description>
+    <license>licencex</license>
+    <keywords>TCP</keywords>
+
+    <js-module src="www/pluginTCP.js" name="pluginTCP">
+        <clobbers target="pluginTCP" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+	    
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PluginTCP">
+                <param name="android-package" value="fr.fablab.TCPA.PluginTCP"/>
+            </feature>
+            <feature name="TCPSock">
+                <param name="android-package" value="fr.fablab.TCPA.TCPSock"/>
+            </feature>
+            <feature name="TCPThreadA">
+                <param name="android-package" value="fr.fablab.TCPA.TCPThreadA"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/PluginTCP.java" target-dir="src/fr/fablab/TCPA" />
+        <source-file src="src/android/TCPSock.java" target-dir="src/fr/fablab/TCPA" />
+        <source-file src="src/android/TCPThreadA.java" target-dir="src/fr/fablab/TCPA" />
+    
+    </platform>
+
+</plugin>

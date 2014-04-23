@@ -1,0 +1,224 @@
+
+/* 	position: fixed; top: 0; left: 0;  */
+/* ----------------------------------------------- */
+
+body {
+ background-color : #5EDAC9; 
+ color: black;
+}
+
+/* ----------------------------------------------- */
+
+h1 {
+		color: yellow;
+		background-color: black;
+	}
+
+h2 {
+		color: yellow;
+		background-color: red;
+                /* position: fixed; top: 0; left: 0; */
+                /* vertical-align:top; */
+	}
+
+h3 {
+		color: black;
+                /* vertical-align:top; ==> ne fonctionne pas */
+	}
+
+
+
+.puce0 {
+                list-style-type:none;
+	}
+
+.pre {
+ background-color : black; 
+ color: white;
+}
+
+.preColorA {
+ background-color : white; 
+ color: black;
+}
+
+.preJaune {
+ background-color : black; 
+ color: yellow;
+}
+
+.centre {
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+img.imga {
+display: block;
+margin: 0 auto;
+height: 100px; /* spécifiez la hauteur de l'image, une bonne attitude à prendre */
+width: 100px; /* spécifiez la largeur de l'image, une bonne habitude à prendre */
+
+}
+
+.colorRouge {
+		color: red;
+	}
+
+
+/* ----------------------------------------------- */
+
+
+.divCenter {
+                text-align:center;
+        }
+.ficA {
+                /* color:#e7d53d; */
+		background-color: white;
+		color: black;
+        }
+
+.ficB {
+                /* color:#e7d53d; */
+		background-color: #d5d4cd; /* white; */
+		/* color: black; */
+        }
+
+
+/*
+http://www.elated.com/articles/css-text-properties/
+http://kyleschaeffer.com/best-practices/css-font-size-em-vs-px-vs-pt-vs/
+http://www.echoecho.com/csstext.htm
+
+tuto :
+http://www.w3schools.com/cssref/default.asp
+http://www.javascriptkit.com/dhtmltutors/cssreference.shtml
+http://www.zonecss.fr/style_css/feuille_css_padding_top.html
+
+*/
+.black_souligne {
+                font-weight: bold;
+                font-size: 120.5%;
+                text-decoration:underline;
+		color: black;
+	}
+
+.black_unsouligne {
+                font-weight: bold;
+                font-size: 110%;
+                /* text-decoration:underline; */
+		color: black;
+	}
+
+.variable {
+                font-weight: bold;
+                /* font-size: 110%;  */
+                /* text-decoration:underline; */
+		color: grey;
+	}
+
+.variable1 {
+                font-weight: bold;
+                /* font-size: 110%;  */
+                /* text-decoration:underline; */
+		color: red;
+	}
+
+.jaune {
+                font-weight: bold;
+                font-size: 100%;
+                text-decoration:underline;
+		color: yellow;
+	}
+
+.fondJaune {
+                font-weight: bold;
+                font-size: 100%;
+		background-color: white;
+		color: black;
+	}
+
+.jaune0 {
+		color: yellow;
+	}
+
+.rouge0 {
+		color: red;
+	}
+
+.jaune1 {
+                font-weight: bold;
+                font-size: 120%;
+                text-decoration:underline;
+		color: grey;
+	}
+
+.jaune1a {
+                font-weight: bold;
+                font-size: 120%;
+                text-decoration:underline;
+		color: yellow;
+	}
+
+.jaune1b {
+                font-weight: bold;
+                /* font-size: 120%; */
+                /* text-decoration:underline; */
+		color: yellow;
+	}
+
+.vAlign1 {
+                vertical-align: top;
+        }
+
+.divSepar1 {
+                /* height:100px; width:100%; */
+                text-align:center;
+                /* vertical-align: middle;  display: inline; */
+                padding-top : 20px;
+                padding-bottom : 20px; /* 2cm 4cm 3cm 4cm;*/
+                font-weight: bold;
+                font-size: 150%;
+                text-decoration:underline;
+		background-color: white;
+		color: black;
+                border: 4px solid #202020; /* border-left-width: 0; border-right-width: 0; */
+	}
+
+.divSepar1Rouge {
+                /* height:100px; width:100%; */
+                text-align:center;
+                /* vertical-align: middle;  display: inline; */
+                padding-top : 20px;
+                padding-bottom : 20px; /* 2cm 4cm 3cm 4cm;*/
+                font-weight: bold;
+                font-size: 150%;
+                text-decoration:underline;
+		background-color: red;
+		color: black;
+                border: 4px solid #202020; /* border-left-width: 0; border-right-width: 0; */
+	}
+
+.alignGauche {
+                text-align:left;
+           }
+.divSepar2 {
+                text-align:center;
+                padding-top : 20px;
+                padding-bottom : 20px; /* 2cm 4cm 3cm 4cm;*/
+                font-weight: bold;
+                font-size: 150%;
+                text-decoration:underline;
+		/* background-color: #5EDAC9; */
+		color: black;
+                border: 4px solid #202020; /* border-left-width: 0; border-right-width: 0; */
+	}
+
+.divSepar3 {
+                text-align:center;
+                padding-top : 10px;
+                padding-bottom : 10px; /* 2cm 4cm 3cm 4cm;*/
+                font-weight: bold;
+                font-size: 110%;
+		/* background-color: #5EDAC9; */
+		color: black;
+	}
